@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_black_24dp"
+        title="HOME"
+        />
+    <tab
+        id="@+id/tab_services"
+        icon="@drawable/ic_local_florist_black_24dp"
+        title="SERVICES" />
+    <tab
+        id="@+id/tab_training"
+        icon="@drawable/ic_class_black_24dp"
+        title="Training"
+        />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_shop_two_black_24dp"
+        title="CAREER" />
+    <tab
+        id="@+id/tab_login"
+        icon="@drawable/ic_lock_black_24dp"
+        title="REGISTER|LOGIN" />
+    <tab
+        id="@+id/tab_order"
+        icon="@drawable/ic_android_black_24dp"
+        title="ORDER"
+        />
+</tabs>

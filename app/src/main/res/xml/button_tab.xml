@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+    id="@+id/tab_service1"
+    title="Get Service"
+    barColorWhenSelected="#0033cc"
+    icon="@drawable/ic_local_florist_black_24dp"
+    />
+</tabs>

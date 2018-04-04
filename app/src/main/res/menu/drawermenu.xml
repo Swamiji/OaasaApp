@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="HOME"
+    android:id="@+id/home"
+    android:icon="@drawable/ic_home_black_24dp"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    />
+<item
+    android:title="SERVICES"
+    android:id="@+id/services"
+    android:icon="@drawable/ic_local_florist_black_24dp"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    />
+<item
+    android:title="TRAININGS"
+    android:id="@+id/trainings"
+    android:icon="@drawable/ic_class_black_24dp"
+    app:showAsAction="ifRoom"
+    android:enabled="true"/>
+<item
+    android:title="CAREER"
+    android:id="@+id/career"
+    android:icon="@drawable/ic_shop_two_black_24dp"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    />
+<item
+    android:title="REGISTER|LOGIN"
+    android:id="@+id/reg_login"
+    android:icon="@drawable/ic_lock_black_24dp"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    />
+<item
+    android:title="ORDER"
+    android:id="@+id/order"
+    android:icon="@drawable/ic_android_black_24dp"
+    app:showAsAction="ifRoom"
+    android:enabled="true"
+    />
+
+</menu>

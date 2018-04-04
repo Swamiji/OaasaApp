@@ -1,0 +1,126 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oaasa.oaasatechnologys.erp_consultancy">
+
+    <!-- TODO: Update blank fragment layout -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/service_img"
+                    android:layout_width="345dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/service_img"
+                    >
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/include"
+                        android:layout_marginTop="21dp"
+                        android:text="SERVICES"
+                        android:textColor="#000000"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linearLayout1"
+                    android:id="@+id/relative"
+                    >
+                    <ImageView
+                        android:id="@+id/erp_logo"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:id="@+id/text_short_descrip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/erp_logo"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginStart="29dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_toEndOf="@+id/erp_logo"
+                        android:layout_toRightOf="@+id/erp_logo"
+                        android:text="Text Short Description header"
+                        android:textColor="@color/grayDarken"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/short_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="5dp"
+                        android:text="Short Description"
+                        android:textColor="#000000"
+                        android:layout_below="@id/text_short_descrip"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/relative"
+                    >
+                    <TextView
+                        android:id="@+id/text_long_descrip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/Long_Descrip"
+                        android:layout_alignLeft="@+id/text_short_descrip"
+                        android:layout_alignStart="@+id/text_short_descrip"
+                        android:text="Text Long Description"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/linearLayout3"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/white"
+                    />
+            </RelativeLayout>
+
+        </ScrollView>
+
+</FrameLayout>

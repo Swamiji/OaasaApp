@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "388656463722",
+    "firebase_url": "https://databaseadmin-182a5.firebaseio.com",
+    "project_id": "databaseadmin-182a5",
+    "storage_bucket": "databaseadmin-182a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388656463722:android:61c96cae825ddade",
+        "android_client_info": {
+          "package_name": "com.example.oaasa.oaasatechnologys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388656463722-48efh6u7ocg3s897l4rt6nc2927d8j1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcR7ja-uzkKBdAT439w42HrJkvO5_7Ovs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

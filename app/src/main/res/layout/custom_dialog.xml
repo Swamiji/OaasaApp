@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.oaasa.oaasatechnologys.MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fill The Details :"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/relativeLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Service"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/title_spinner"
+            android:layout_alignParentLeft="true"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/title_spinner"
+            >
+
+
+        </Spinner>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/Title_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Title of Your Project"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#000000"
+
+        />
+
+    <EditText
+        android:id="@+id/requirement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Title_project"
+        android:layout_alignStart="@+id/Title_project"
+        android:layout_below="@+id/Title_project"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Requirements and Specification"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/url_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/requirement"
+        android:layout_alignStart="@+id/requirement"
+        android:layout_below="@+id/requirement"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Sample Project URL Link"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="submit"
+
+        android:layout_below="@+id/url_link"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

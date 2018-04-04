@@ -1,0 +1,189 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oaasa.oaasatechnologys.web_development">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/web_img"
+                android:layout_width="345dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/linearLayout1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relative4"
+                android:layout_below="@id/web_img"
+                >
+                <TextView
+                    android:id="@+id/title_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="21dp"
+                    android:text="WebDevelopment"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative4"
+                android:layout_marginTop="15dp"
+                >
+
+                <ImageView
+                    android:id="@+id/web_logo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/activities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/web_logo"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toEndOf="@+id/web_logo"
+                    android:layout_toRightOf="@+id/web_logo"
+                    android:text="Activities"
+                    android:textColor="@color/grayDarken"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grayDarken"
+                    android:text="Activities1"
+                    android:textSize="17dp"
+                    android:id="@+id/activities1"
+                    android:textStyle="bold"
+                    android:layout_below="@id/web_logo"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative1"
+                android:id="@+id/relative5"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="meta_description"
+                    android:id="@+id/meta_description"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative5"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/management"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Management"
+                    android:textColor="@color/grayDarken"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/contentManagement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/management"
+                    android:layout_marginLeft="10dp"
+                    android:text="Content Management"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative2"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                android:id="@+id/website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Website :"
+                android:textColor="@color/grayDarken"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+                <TextView
+                    android:id="@+id/websiteContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Website Content"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_below="@id/website"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/relative3"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</FrameLayout>

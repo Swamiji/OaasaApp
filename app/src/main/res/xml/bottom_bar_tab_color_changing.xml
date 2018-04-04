@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_black_24dp"
+        title="HOME"
+        barColorWhenSelected="#0033cc"
+        />
+    <tab
+        id="@+id/tab_services"
+        icon="@drawable/ic_local_florist_black_24dp"
+        title="SERVICES"
+        barColorWhenSelected="#0033cc" />
+    <tab
+        id="@+id/tab_training"
+        icon="@drawable/ic_class_black_24dp"
+        title="Training"
+        barColorWhenSelected="#0033cc" />
+    <tab
+        id="@+id/tab_career"
+        icon="@drawable/ic_shop_two_black_24dp"
+        title="CAREER"
+        barColorWhenSelected="#0033cc" />
+    <tab
+        id="@+id/tab_order"
+        icon="@drawable/ic_android_black_24dp"
+        title="ORDER"
+        barColorWhenSelected="#0033cc" />
+</tabs>
